@@ -18,7 +18,6 @@ figure {
 
 article {
     width: 700px;
-    word-spacing: 10px;
     margin: auto;
 }
 
@@ -26,10 +25,17 @@ p {
     color: rgba(0,0,0,.8);
     font-family: Georgia, Cambria,"Times New Roman", Times, serif;
     font-size: 21px;
+    word-spacing: -0.003em;
+    line-height: 1.58;
 }
 
 a {
     color:  rgba(0,0,0,.8);
+    
+}
+
+a:hover {
+    color: rgba(153, 153, 153, 1)
 }
 
 img {
